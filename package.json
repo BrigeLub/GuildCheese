@@ -1,0 +1,14 @@
+{
+  "name": "guildcheese",
+  "version": "1.0.0",
+  "description": "[Sourced from Week 1 Intro slides]\r Team Website: Draft due by 4/25 with regular updates\r -\tGame Marketing Copy \r -\tStudio and game logo\r -\tTrailer for game when complete\r -\tAbout section for studio (emphasize student project)\r -\tTeam bios including picture and one-two sentence byline\r -\tPublic facing!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
