@@ -8,12 +8,13 @@ function createBios() {
 }
 
 function createBioElement() {
-  let bioDiv = document.createElement("div");
+  let bioCard = document.createElement("div");
+  bioCard.classList.add("bio-card"); // Add a class for styling
+
   let bioContent = document.createElement("p");
+  bioContent.textContent = "Team";
 
-  bioContent.textContent = "Brigitte";
+  bioCard.append(bioContent);
 
-  bioDiv.append(bioContent);
-
-  return bioDiv;
+  return bioCard;
 }
