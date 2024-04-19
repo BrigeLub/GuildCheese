@@ -12,7 +12,7 @@ function createBioElement() {
   bioCard.classList.add("bio-card"); // Add a class for styling
 
   let bioContent = document.createElement("p");
-  bioContent.textContent = "Team";
+  bioContent.textContent = "Team Member";
 
   bioCard.append(bioContent);
 

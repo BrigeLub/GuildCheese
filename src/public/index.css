@@ -16,16 +16,9 @@ body {
     margin-bottom: 5px;
     background-color: #ffd000;
     padding: 2%;
-    border-radius: 0% 0% 50% 70%;
-    transition: margin-bottom 3s;
-    transition-timing-function: linear;
+    border-radius: 0% 0% 70% 70%;
+
 }
-
-.button:hover{
-  margin-bottom: -100px;
-}
-
-
 
 
   h1 {
@@ -37,6 +30,7 @@ body {
   .flex-wrapper {
     display: flex;
     margin-left: 2rem;
+    flex-direction: row-reverse;
   }
 
   .header {
@@ -44,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     position: sticky;
-    padding: 2rem;
+    padding: auto;
     top: 0;
     
   }
