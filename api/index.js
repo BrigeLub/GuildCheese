@@ -9,7 +9,7 @@ const port = 3000;
 app.use(express.static(path.join(rootDir, "public")));
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.sendFile(path.join(rootDir, "public", "index.html"));
 });
 
 app.get("/about", (req, res) => {
