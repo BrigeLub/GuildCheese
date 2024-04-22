@@ -6,18 +6,20 @@ const rootDir = path.dirname(require.main.filename);
 
 const port = 3000;
 
-app.use(express.static(path.join(rootDir, "public")));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(rootDir, "public", "index.html"));
+  console.log(rootDir);
+  res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
 app.get("/about", (req, res) => {
-  res.sendFile(path.join(rootDir, "public", "html/about.html"));
+  console.log(rootDir);
+  res.sendFile(path.join(__dirname, "public", "html/about.html"));
 });
 
 app.get("/bios", (req, res) => {
-  res.sendFile(path.join(rootDir, "public", "html/teambio.html"));
+  res.sendFile(path.join(__dirname, "public", "html/teambio.html"));
 });
 
 app.listen(port, () => {
