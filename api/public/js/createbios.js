@@ -38,6 +38,7 @@ function createBioElement(element) {
 
   let bioContent = document.createElement("p");
   bioContent.textContent = element.bio;
+  bioContent.classList.add("bio-text"); // Add a class for styling
 
   bioCard.append(bioName);
   bioCard.append(bioContent);
