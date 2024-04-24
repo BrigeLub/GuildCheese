@@ -1,16 +1,4 @@
-body {
-    background-color: #F5F7DC;
-    color: #001524;
-    margin: 0;
-    font-family: system-ui;
-  }
 
-  a{
-    text-decoration: none;
-    font-weight: 650;
-    color: #5E2C32;
-    font-family: system-ui;
-  }
 
   .button {
     margin-right: 5px;
@@ -22,37 +10,12 @@ body {
 }
 
 
-  h1 {
-    color: #5E2C32;
-    margin-left: 4rem;
-    font-family: system-ui;
-  }
-
+  
   .flex-wrapper {
     display: flex;
     margin-left: 2rem;
     flex-direction: row-reverse;
   }
 
-  .header {
-    background-color: #ffd000;
-    display: flex;
-    flex-direction: column;
-    position: sticky;
-    padding: auto;
-    top: 0;
-    font-family: system-ui;
-    
-  }
+
   
-  .header img {
-    width: 100%;
-    height: auto;
-    margin: -1rem calc(50% - 50vw) 3rem;
-  }
-  
-  .header p {
-    font: small-caps bold 1.2rem sans-serif;
-    text-align: center;
-    
-  }

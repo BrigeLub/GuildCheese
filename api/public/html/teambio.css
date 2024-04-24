@@ -1,25 +1,4 @@
-h1 {
-    color: #5E2C32;
-    margin-left: 4rem;
-    font-family: system-ui;  }
 
-
-  .header {
-    background-color: #ffd000;
-    display: flex;
-    flex-direction: column;
-    position: sticky;
-    padding: auto;
-    top: 0;
-    
-  }
-body {
-    background-color: #F5F7DC;
-    color: #001524;
-    margin: 0;
-    font-family: system-ui;
-    
-  }
 
 .bio-card {
     /* Add shadows to create the "card" effect */
@@ -31,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     padding:2rem;
+    font-size: small;
     
 
   }
@@ -56,5 +36,6 @@ body {
 
   }
   .bio-text{
-    
+    font-size: medium;
+    margin: 0;
   }
