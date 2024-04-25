@@ -1,21 +1,31 @@
 {
   "teamlist": [
+    
     {
       "name": "Brigitte Lubker",
       "bio": "weasel"
     },
-    {
-      "name": "Leah Jorge",
-      "bio": "creacher"
-    },
-    {
-      "name": "Ethan Whiting",
-      "bio": "I study Game Design and Production at Drexel with a minor in Entrepreneurship. I enjoy running project management with an inclusive attitude to keep the team moving forward!"
-    },
+
     {
       "name": "Colin Page",
       "bio": "I'm a gameplay programmer studying Computer Science at Drexel. I love messing around with experimental game prototypes and trying to make weird mechanics fun. I enjoy puzzles and playing competitive team games."
     },
+
+    {
+      "name": "Ethan Whiting",
+      "bio": "I study Game Design and Production at Drexel with a minor in Entrepreneurship. I enjoy running project management with an inclusive attitude to keep the team moving forward!"
+    },
+
+    {
+      "name": "Leah Jorge",
+      "bio": "creacher"
+    },
+
+    {
+      "name": "Miguel Geniza",
+      "bio": " Hi! I'm a 5/5 Computer Science major and also music and sound engineer!"
+    },
+
     {
       "name": "Thomas Ludin",
       "bio": "Howdy! I am a Game Design and Production major doing marketing for this project!"
