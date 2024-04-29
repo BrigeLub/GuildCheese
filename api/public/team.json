@@ -1,6 +1,5 @@
 {
   "teamlist": [
-    
     {
       "name": "Brigitte Lubker",
       "bio": "weasel"
@@ -29,7 +28,10 @@
     {
       "name": "Thomas Ludin",
       "bio": "Howdy! I am a Game Design and Production major doing marketing for this project!"
+    },
+    {
+      "name": "Owen Mearns",
+      "bio": "I'm a student at Drexel University studying Game Design and Production with a minor in CS. I Enjoy 3D and Environment Art"
     }
-
   ]
 }
