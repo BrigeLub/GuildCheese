@@ -52,23 +52,28 @@ body {
     background-color: #ffd000;
     padding: 2%;
     border-radius: 0% 0% 70% 70%;
+    cursor: pointer;
+    font-size: x-large;
+    
 
 }
-
-
-  
   .flex-wrapper {
     display: flex;
     margin-left: 2rem;
+    margin-top: 147px;
     flex-direction: row-reverse;
+    position: fixed;
+    top: 0;
+    width: 98%;
   }
   .logo{
     height: 109px;
     padding: 1%;
+    cursor: pointer;
 
   }
   .name{
     height: 65px;
     padding: .5%;
+    cursor: pointer;
   }
-  
