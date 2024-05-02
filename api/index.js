@@ -4,7 +4,7 @@ const path = require("path");
 
 const port = 3000;
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
@@ -16,6 +16,10 @@ app.get("/about", (req, res) => {
 
 app.get("/bios", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "html/teambio.html"));
+});
+
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "html/error.html"));
 });
 
 app.listen(port, () => {
