@@ -1,11 +1,6 @@
 {
   "teamlist": [
     {
-      "name": "Brigitte Lubker",
-      "bio": "weasel"
-    },
-
-    {
       "name": "Colin Page",
       "bio": "I'm a gameplay programmer studying Computer Science at Drexel. I love messing around with experimental game prototypes and trying to make weird mechanics fun. I enjoy puzzles and playing competitive team games."
     },
@@ -14,12 +9,6 @@
       "name": "Ethan Whiting",
       "bio": "I study Game Design and Production at Drexel with a minor in Entrepreneurship. I enjoy running project management with an inclusive attitude to keep the team moving forward!"
     },
-
-    {
-      "name": "Leah Jorge",
-      "bio": "creacher"
-    },
-
     {
       "name": "Miguel Geniza",
       "bio": " Hi! I'm a 5/5 Computer Science major and also music and sound engineer!"
@@ -32,6 +21,46 @@
     {
       "name": "Owen Mearns",
       "bio": "I'm a student at Drexel University studying Game Design and Production with a minor in CS. I Enjoy 3D and Environment Art"
+    },
+    {
+      "name": "Brigitte Lubker",
+      "bio": "weasel"
+    },
+    {
+      "name": "Rui Huang",
+      "bio": "My major is Computer Science with a concentration in Game Programming and Development. I enjoy software architecture design."
+    },
+    {
+      "name": "Quinn Alpern",
+      "bio": "I'm an artist, writer, and planner studying game design and production, working on production and marketing for the team!"
+    },
+    {
+      "name": "Jordyn Morris",
+      "bio": "Game Design and Production Major at Drexel University. I'm one of our teams artists!"
+    },
+    {
+      "name": "Nick Hom",
+      "bio": "I'm a Senior studying Computer Science, working on game design and gameplay programming. My favorite games are ones with low skill floors and high skill ceilings!"
+    },
+    {
+      "name": "Quinn Williams",
+      "bio": "I'm a junior game design student whose focus is animation and programming!"
+    },
+    {
+      "name": "Carolina Escobar",
+      "bio": "Junior Game Design and Production Student at Drexel. I love working on character designs and 2-D art."
+    },
+    {
+      "name": "Adrian Bernales",
+      "bio": "I'm a Junior Game Design student that loves doing character design and 2D art!"
+    },
+    {
+      "name": "Braden Kovalovich",
+      "bio": " I'm a Junior GDAP student who loves using code to solve game design problems! I like working on unique games with unique voices."
+    },
+    {
+      "name": "Leah Jorge",
+      "bio": "If you've scrolled this far, hello! I'm a CS major with a concentration in Game Programming and Development. I'm also responsible for the backend code for this site!"
     }
   ]
 }

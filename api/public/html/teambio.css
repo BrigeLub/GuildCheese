@@ -1,20 +1,18 @@
-
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   gap: 2%;
   padding: 2%;
   padding-left: 12%;
   padding-right: 12%;
   margin: auto;
-  
 }
 
 .bio-card {
   /* Add shadows to create the "card" effect */
   display: flex;
   padding: 5%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background-color: #ffbb00;
   flex-direction: column;
@@ -24,11 +22,12 @@
 
 /* On mouse-over, add a deeper shadow */
 .bio-card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .bio-img {
   width: 60%;
+  height: 80%;
   object-fit: contain;
   object-position: center;
 }
