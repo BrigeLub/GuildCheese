@@ -60,9 +60,9 @@ body {
   .flex-wrapper {
     display: flex;
     margin-left: 2rem;
-    margin-top: 147px;
+    margin-top: -1px; 
     flex-direction: row-reverse;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 98%;
   }
