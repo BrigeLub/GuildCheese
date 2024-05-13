@@ -6,6 +6,7 @@
   padding-left: 12%;
   padding-right: 12%;
   margin: auto;
+
 }
 
 .bio-card {
@@ -27,9 +28,11 @@
 
 .bio-img {
   width: 60%;
-  height: 80%;
-  object-fit: contain;
+  height: 60%;
   object-position: center;
+  /* width: 300px; 
+  height: 300px;   */
+  object-fit: scale-down;
 }
 
 .bio-text {
