@@ -22,16 +22,14 @@ function createBios() {
 }
 
 function createBioElement(element) {
-  console.log(element);
   let bioCard = document.createElement("div");
   bioCard.classList.add("bio-card"); // Add a class for styling
 
   let bioImage = document.createElement("img");
-  bioImage.src = `../images/${element.name.split(' ').join('')}.png`;
+  bioImage.src = element.img;
   bioImage.alt = `Picture of ${element.name}`;
   bioCard.append(bioImage);
   bioImage.classList.add("bio-img"); // Add a class for styling
-
 
   let bioName = document.createElement("h2");
   bioName.textContent = element.name;
@@ -49,4 +47,4 @@ function createBioElement(element) {
 /*    {
       "name": "The Beast. He Who Watches Over the Unending Sea, He Whose Roar Shakes the Heavens, The Winnower, May His Name be Forever Praised and Dreaded in Equal Measure, Oh Great One.",
       "bio": "stinky"
-    },*/ 
+    },*/
